@@ -79,6 +79,7 @@
     <Compile Include="Assets\Spout\Scripts\Spout.cs" />
     <Compile Include="Assets\Spout\Scripts\SpoutReceiver.cs" />
     <Compile Include="Assets\Spout\Scripts\SpoutSender.cs" />
+    <Compile Include="Assets\Spout\Scripts\SpoutTextureSender.cs" />
     <Compile Include="Assets\Spout\Scripts\TextureInfo.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
