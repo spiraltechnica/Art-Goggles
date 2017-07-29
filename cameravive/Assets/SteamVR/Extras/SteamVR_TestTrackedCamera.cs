@@ -7,7 +7,6 @@ public class SteamVR_TestTrackedCamera : MonoBehaviour
 	public Transform target;
 	public bool undistorted = true;
 	public bool cropped = true;
-    public RenderTexture spoutTexture;
 
 	void OnEnable()
 	{
@@ -35,11 +34,7 @@ public class SteamVR_TestTrackedCamera : MonoBehaviour
 	void Update()
 	{
 		var source = SteamVR_TrackedCamera.Source(undistorted);
-        //Debug.Log("aniso:" + source.texture.ToString());
-        //Debug.Log("format:" + source.texture.format.ToString());
-      
-
-        var texture = source.texture;
+		var texture = source.texture;
 		if (texture == null)
 		{
 			return;
@@ -84,8 +79,6 @@ public class SteamVR_TestTrackedCamera : MonoBehaviour
 			target.localPosition = t.pos;
 			target.localRotation = t.rot;
 		}
-
-        Graphics.Blit(source.texture, spoutTexture);
-    }
+	}
 }
 
