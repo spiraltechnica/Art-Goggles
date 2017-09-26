@@ -1,7 +1,12 @@
 # Art-Goggles
+Art-Goggles lets you see reality through an augmented lens. It uses the HTC Vive's front facing camera, combined with Resolume Arena and Spout (texture sharing framework) to dazzle your eyes with wonderous effects on your reality.
+![Art Goggles](https://raw.githubusercontent.com/spiraltechnica/Art-Goggles/master/Images/Art-Goggles-Resolume.png)
 
-Art Goggles achieves a method of augmented reality by using the HTC Vive's front facing camera as input into Windows Spout enabled VJ programs, like Resolume Arena. Resolume shares the newly composited texture back into VR. This way you can see reality through the VR headset, with an overlay of graphical effects.
-
-The program is written in Unity3D.
+[![Art Goggles Video](https://img.youtube.com/vi/55aA5zn-mho/0.jpg)](https://www.youtube.com/watch?v=55aA5zn-mho)
 
 
+See [Builds/](Builds/) folder for the latest build.
+
+The program is written in Unity3D. Current editor version is 5.6.3.
+
+Copyright Ryan Walker of Spiral Technica. Released under MIT license. 
